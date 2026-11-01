@@ -19,3 +19,9 @@ Este repositorio contiene el análisis de requisitos y el diseño arquitectónic
 | **David GRACIANI ROBLES** | Analista Software | Captura, especificación y trazabilidad de RF y RD/tecnológicos |
 | **Francisco CASERO SANCHEZ** | Arquitecto Software | Diagramas de clases y paquetes, patrones y estilos de diseño |
 | **Alejandro PEÑA PAZ** | Arquitecto Software | Diagrama de secuencias y modelado dinámico del sistema |
+
+---
+
+## 📄 Documentación
+
+- [Captura de requisitos (RF y RD)](docs/requisitos/requisitos.md)
