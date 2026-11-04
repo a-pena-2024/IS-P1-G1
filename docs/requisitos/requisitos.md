@@ -13,10 +13,9 @@ Este documento recoge los requisitos funcionales (RF) y los requisitos de domini
 | RF1.2 | Interpretar estado de la vía | El sistema debe interpretar el estado de cada registro y mostrarlo como "ocupada" o "libre" según la codificación de RD5. |
 | RF2 | Gestionar dispositivos de vía | El sistema debe permitir que cada vía de tren tenga múltiples dispositivos, separados entre sí según la distancia definida en RD7. |
 | RF2.1 | Identificar dispositivo | El sistema debe asignar a cada dispositivo un identificador único, que se usa para asociarle sus lecturas e incidencias. |
-| RF3 | Detectar y predecir incidencias | El sistema debe incorporar un módulo inteligente (RD8) que detecte y prediga incidencias a partir de los valores. Solo se consideran los tipos de RF3.1 y RF3.2; los otros 7 de los 9 tipos posibles quedan fuera del alcance. |
+| RF3 | Detectar y predecir incidencias | El sistema debe incorporar un módulo inteligente (RD8) que detecte y prediga incidencias a partir de los valores. Solo se consideran los tipos de RF3.1 y RF3.2. |
 | RF3.1 | Detectar ausencia de datos | El sistema debe detectar la incidencia "ausencia de datos por bloqueo prolongado" cuando un dispositivo de vía no emita datos durante un periodo superior a 2 minutos. |
 | RF3.2 | Detectar salto de voltaje | El sistema debe detectar la incidencia "salto de frecuencia" cuando el voltaje de un dispositivo varíe al menos 0.5 V entre dos lecturas consecutivas. |
-| RF3.3 | Predecir incidencias | El sistema debe predecir la aparición de incidencias de los tipos RF3.1 y RF3.2 a partir de los valores de las lecturas. |
 | RF4 | Gestionar suscripción a incidencias | El sistema debe incorporar un módulo de publicación y suscripción de incidencias. |
 | RF4.1 | Publicar incidencia | Los usuarios del sistema deben poder publicar incidencias de los diferentes tipos considerados (RF3.1 y RF3.2). |
 | RF4.2 | Suscribirse a incidencias | Los gestores del sistema deben poder suscribirse a los diferentes tipos de incidencias. |
